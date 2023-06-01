@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #eceaea;
+}
+
+header{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+ul>li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+ol>li{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    padding: 10px;
+}
+
+.subtitulos{
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.txtLogo{
+    padding: 0 20px;
+}
+.txtPizza{
+    color: #39B24A;
+}
+.txtFront, .envioGratis{
+    color: #FC200C;
+}
+
+main{
+    display: flex;
+    margin: 80px 50px;
+    min-height: 500px;
+}
+
+.contenedorPromocion{
+    background-image: url('../img/delivery.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    width: 45%;
+}
+
+.txtPromocion{
+    padding: 30px 30px;
+}
+.compraEnvio{
+    color: #FFFFFF;
+}
+
+.contenedorPodio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.tituloContenido{
+    flex-grow: 0.3;
+    color: #FC200C;
+    text-align: center;
+}
+
+.contenido{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.subtituloTop{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    flex-grow: 0.1;
+    padding-bottom: 10px;
+}
+.txtContenido{
+    display:flex;
+    flex-direction: column;
+    flex-grow: 0.9;
+    align-items: center;
+}
+.imgContenido{
+    flex-grow: 1;
+}
+
+.contenedorTxt{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: #F3F3F3;
+    padding: 10px 0;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navFooter>ul>li{
+    display: block;
+    padding: 10px;
+
+}
